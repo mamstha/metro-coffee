@@ -25,7 +25,7 @@
                            <p> To Discover More</p>
                             </div>
                            <div>
-                            <img src="img/scroll-down 1.png" alt="">
+                            <img src="img/scroll-down 1.png" alt="" class="scroll-img">
                            </div>
                         </div>
                     </div>

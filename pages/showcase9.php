@@ -6,6 +6,7 @@
                 <h2>Contact Us</h2>
                 <p>For support or any question
                    <br> Email us : info@metrocoffee.co.uk</p>
+                   
                 </div>
                   <div class="contact-lists">
                     <div class="contact-list">
@@ -40,30 +41,24 @@
                 <div class="form-title">
                     Lets start a conversation.
                 </div>
-
-                <form action="" class="form">
-                    <div class="form-row">
-                        <div class="form-row-input">
-                        <input type="text" placeholder="Your Name">
+                 
+                <form>
+                    <div class="form-group">
+                      
+                        <input type="text" class="form-control" id="formControlInput1" placeholder="Your Name">
                     </div>
-
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
                     </div>
-
-                    <div class="form-row">
-                        <div class="form-row-input">
-                        <input type="e-mail-address" placeholder="Email ">
+                   
+                    <div class="form-group">
+                        <textarea class="form-control" id="formControlTextarea1" placeholder="Type a message" rows="6"></textarea>
                     </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
 
-                    <div class="form-row">
-                        <div class="form-row-input">
-                            <textarea class="input-message" name="comment" form="usrform">Type a message</textarea>
-                        </div>
-                    </div>
-
-                    <div>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    </div>
                 </form>
+                
                 
                 </div>
             </div>

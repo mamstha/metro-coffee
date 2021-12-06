@@ -23,8 +23,8 @@
             <div class="col-md-4 boxes-1">
                <div class="case">
                <img src="img/jenny.png" alt="">
-                <h2>Kenny Smith</h2>
-                <p>Managing Director</p>
+                <h2>Alex Turner</h2>
+                <p>Marketing Director</p>
                 <p class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
@@ -34,8 +34,8 @@
             <div class="col-md-4 boxes-1">
                <div class="case">
                <img src="img/alex.png" alt="">
-                <h2>Kenny Smith</h2>
-                <p>Managing Director</p>
+                <h2>Alex Turner</h2>
+                <p>Sales And Marketing</p>
                 <p class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>

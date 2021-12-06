@@ -4,7 +4,7 @@
                <div class="title">
                     <hr class="title-hr">
                     <div class="title-tag">
-                        METRO COFFEE
+                        METRO COFFEE 
                     </div>
                </div>
                 <h2>Clear Your Depresso With an Espresso</h2>
@@ -14,7 +14,7 @@
                     smackingly delicious all-day breakfast wraps and sandwiches.
                 </p>
             </div>
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-12 col-md-4">
                 <img src="img/s90-pa-2006-mockup-01@2x 1.png" alt="image" class="image-1">
             </div>
         </div>
