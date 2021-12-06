@@ -125,7 +125,27 @@ position: relative;}
 .container .carousel-caption .scroll{
     display: flex;
     position: absolute;
-    right: -250x;
+    right: -200px;
+}
+
+.container .carousel-caption .scroll h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #FFFFFFDE;
+}
+
+.container .carousel-caption .scroll p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFFDE;
+}
+
+.container .carousel-caption .scroll .scroll-img{
+    width: 32px;
+    color: #FFFFFFDE;
+    margin-left: 16px;
 }
 
 .showcase-2{
@@ -160,7 +180,6 @@ position: relative;}
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
-    width: 569px;
     text-align:justify;
 }
 
@@ -559,45 +578,9 @@ width: 330px;
     margin-top: 109px;
     margin-bottom: 24px;
 }
-
-.showcase-9 .form-row .form-row-input {
-    display: block;
-    text-align: center;
-
-}
-.showcase-9 .form-row .form-row-input input{
-    padding: 8px;
-    width: 469px;
-    margin-bottom: 30px;
-    border-radius: 5px;
+.showcase-9 .container form button.btn.btn-primary{
+    background: #550E1C;
     border: none;
-    color: #000000DE;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.showcase-9 .form-row .form-row-input .input-message{
-   width: 467px;
-   height: 155px;
-   padding: 8px;
-   margin-bottom: 30px;
-    border-radius: 5px;
-    border: none;
-    color: #00000099;
-    font-size: 16px;
-    font-weight: 400;
-
-}
-
-
-.form-row .form-row-input .submit input[type=submit]{
-    background: #00C79F;
-    border: none;
-    color: #f4f4f4;
-    text-align: center;
-    display: block;
-    border-radius: 50px;
-     
 }
 
 .showcase-10{
@@ -682,6 +665,9 @@ width: 330px;
     width: 100%;
     margin-bottom: 40px;
 }
+
+
+
 
 
 
