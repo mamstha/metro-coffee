@@ -540,10 +540,18 @@ width: 330px;
     margin-bottom: 228px;
 
 }
+.showcase-8 .app-btn .apple img{
+   width: 100%;
+}
+.showcase-8 .app-btn .google img{
+    width: 100%;
+ }
 
 .showcase-8 .app-btn .apple{
     padding-right: 25px;
 }
+
+
 
 
 .showcase-8 .download .download-img{
@@ -977,12 +985,14 @@ display: none;
         flex-direction: column;
     }
 
-    .showcase-8 .container .app-btn{
-        flex-direction: column;
+    .showcase-8 .app-btn{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    
     }
-
     .showcase-8 .download{
-        margin-top: 100px;
+        margin-top: 20px;
     }
     
     .showcase-8 .title{
@@ -1004,34 +1014,70 @@ display: none;
     }
     
     .showcase-8 .download-text{
-        font-size: 24px;
-        line-height: 72px;
+        font-size: 16px;
+        line-height: 30px;
         font-weight: 600;
-        margin-top: 16px;
     }
-    
-    
-    .showcase-8 .app-btn{
-        display: flex;
-        margin-top: 65px;
-        margin-bottom: 228px;
-    
-    }
-    
-    .showcase-8 .app-btn .apple{
-        padding-right: 25px;
-    }
-    
-    
-    .showcase-8 .download .download-img{
-        display: flex;
-        width: 100%;
-    }
-    
 
-   
+    .showcase-9{
+        min-height: 200px;
+    }
+    
+    .showcase-9 .contact h2{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 6px solid #550E1C;
+        border-image: linear-gradient(to right, #550E1C 0%, #550E1C 40%, transparent 20%) 90 / 1 / 0 stretch;
+    }
+     .showcase-9 .contact .contactUs-text{
+         margin-bottom: 20px;
+     }
+    .showcase-9 .contactUs-text p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    .showcase-9 .contact .contact-list{
+        display: flex;
+    }
 
-  }
+    .showcase-9 .contact .contact-list p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    } 
+
+    .showcase-9 .contact .contact-list .contact-icon img{
+        width: 20px;
+    }
+    
+    .showcase-9 .contact .contact-list .contact-icon{
+        padding-right: 24px;
+    }
+    
+    .showcase-9 .contact .form-title{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+
+    .showcase-9 .container form button.btn.btn-primary{
+        background: #550E1C;
+        border: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 760px){
+
+}
+
 
 
 
