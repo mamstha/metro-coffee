@@ -6,7 +6,7 @@
                 <img src="img/coffee1.png" class="lg-banner"alt="">
             </div>
 
-            <div class="col-md-6 col-sm-6">
+            <div class="col-md-6 col-sm-6 energetic-group">
                <div class="energetic">
                    <div class="energetic-text">
                        Make You More Energetic
@@ -50,7 +50,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 toy-group">
                 <div class="toy">
 
                     <div class=" toy-face-5">

@@ -5,7 +5,7 @@
                 <img src="img/Image.png" alt="">
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 title-group">
                 <div class="title">
                     <hr class="title-hr">
                     <div class="title-tag">

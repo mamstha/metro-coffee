@@ -165,12 +165,17 @@ position: relative;}
     position: relative;
 }
 
+.showcase-2 .title-group{
+    padding-left: 119px;
+}
+
 .showcase-2 .title-tag h2{
     color: #000000DE;
     font-size: 48px;
     font-weight: 600;
     line-height: 72px;
     margin-left: 100px;
+    margin-top: 10px;
 }
 
 .showcase-2 .title-hr{
@@ -190,6 +195,7 @@ position: relative;}
 }
 .showcase-2 .container img{
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .showcase-3{
@@ -216,6 +222,7 @@ position: relative;}
     height: 3px;
     background: #d4874c;
     position: absolute;
+    top: -5px;
 }
 
 .showcase-3 .title h2{
@@ -242,7 +249,6 @@ position: relative;}
 .showcase-3 .container .row .boxes .case{
     background-color: #FFF;
     width: 330px;
-    height: 270px;
     padding: 20px;
     margin-left: 15px;
 
@@ -262,7 +268,7 @@ position: relative;}
 }
 
 .showcase-3 .container .second-row{
-    margin-top: -30px;
+    margin-top: 29px;
     margin-bottom: 100px;
 }
 
@@ -330,6 +336,10 @@ position: relative;}
 
 .showcase-6 .container img{
     width: 100%;
+}
+
+.showcase-6 .container .row .energetic-group{
+    padding-left: 119px;
 }
 .showcase-6 .energetic{
     display: flex;
@@ -427,7 +437,9 @@ padding-left:16px ;
     font-weight: 600;
 }
 
-
+.showcase-6 .container .toy-group{
+    padding-left: 119px;
+}
 .showcase-6 .container .toy{
     display: flex;
     margin-top:-100px;
@@ -786,6 +798,8 @@ padding-left:16px ;
         font-weight: 400;
         line-height: 1;
     }
+
+    
     
     .showcase-3 .container .boxes .case p{
         font-size: 8px;
@@ -817,6 +831,10 @@ padding-left:16px ;
     
     .showcase-4 .associate-logo {
         margin-bottom: 20px;
+    }
+
+    .showcase-4 .associate-logo img{
+        width: 100%;
     }
 
     
@@ -950,12 +968,12 @@ display: none;
 
     .showcase-7 .lady-img{
         position: relative;
-        min-height: 369px;
+        margin-bottom: 30px;
+
     }
     
     .lady-img-1 {
         position: absolute;
-        top: -53px;
     }
     
     .showcase-7 .discount p{
@@ -1055,6 +1073,9 @@ display: none;
         border: none;
         margin-bottom: 20px;
     }
+    .showcase-10{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 760px){
@@ -1087,7 +1108,7 @@ display: none;
     }
 
     .showcase-4 .associate-logo img{
-        width: 100%;
+        width: 100px;
     }
 
     
@@ -1297,7 +1318,6 @@ display: none;
     }
     .showcase-10 .footer .footer-logo{
         padding-top: 30px;  
-        width: 100%;  
     }
     
     .showcase-10 .contact .contact-list{

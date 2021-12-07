@@ -1,11 +1,11 @@
 <div class="showcase-10">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-3 footer">
+            <div class="col-md-3 col-sm-12 footer">
                 <img src="img/footer-logo.png" alt="" class="footer-logo">
             </div>
 
-            <div class="col-md-3 col-sm-3  footer ">
+            <div class="col-md-3 col-sm-4  footer ">
                 <div class=" contact">
                     
                     <div class="contact-lists">
@@ -39,7 +39,7 @@
                 
             </div>
 
-            <div class="col-md-3 col-sm-3  footer">
+            <div class="col-md-3 col-sm-4  footer">
                 <div class="menu-list">
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -51,7 +51,7 @@
                 
             </div>
 
-            <div class="col-md-3 col-sm-3 footer">
+            <div class="col-md-3 col-sm-4 footer">
 
                 <div class="social">
                     <p>Follow Us</p>
