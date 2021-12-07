@@ -1,6 +1,6 @@
 <div class="container showcase-1">
         <div class="row">
-            <div class="col-xs-12 col-md-8">
+            <div class="col-md-8">
                <div class="title">
                     <hr class="title-hr">
                     <div class="title-tag">

@@ -32,7 +32,7 @@
             </div>
 
             <div class="row second-row">
-                <div class="col-md-5"></div>
+                <div class=" col-md-5"></div>
 
                 <div class="col-md-7 boxes">
 
