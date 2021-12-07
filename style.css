@@ -313,7 +313,7 @@ position: relative;}
 
 .showcase-5 .container .row .boxes-1 .case{
     background-color: #FFF;
-    width: 307px;
+    width: 100%;
     padding: 20px;
     margin-left: 15px;
     margin-bottom: 100px;
@@ -373,6 +373,10 @@ position: relative;}
     margin-right: 22px;
 }
 
+.showcase-6 .sm-banner .sm-banner-name{
+    padding-left: 24px;
+}
+
 .showcase-6 .sm-banner .sm-banner-name h2{
     font-weight: 500;
     font-size: 16px;
@@ -391,14 +395,13 @@ position: relative;}
 }
 
 .showcase-6 .sm-banner .sm-banner-text{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .showcase-6 .sm-banner .sm-banner-text p{
 color:#000000DE ;
 font-size: 16px;
 padding-left:16px ;
-width: 330px;
 }
 
 .showcase-6 input{
@@ -427,7 +430,7 @@ width: 330px;
 
 .showcase-6 .container .toy{
     display: flex;
-    margin-top:-50px;
+    margin-top:-100px;
 }
 
 .showcase-6 .container .toy .toy-face-5{
@@ -832,6 +835,7 @@ width: 330px;
 }
 
 .showcase-5 .container .row .boxes-1 .case{
+    width: 100%;
     padding: 10px;
     margin-left: 0;
     margin-bottom: 30px;
@@ -940,29 +944,8 @@ display: none;
         margin-top:-50px;
     }
     
-    .showcase-6 .container .toy .toy-face-5{
-        display: none; 
-   }
-    
-    .showcase-6 .container .toy .toy-face-4{
-        z-index: 8888;
-        margin-left: -30px;
-    }
-    
-    .showcase-6 .container .toy .toy-face-3{
-        display: none; 
-    }
-    
-    .showcase-6 .container .toy .toy-face-2{
-        display: none; 
-    }
-    .showcase-6 .container .toy .toy-face-1{
-        display: none; 
-    }
-    
-    .showcase-6 .container .row .toy .toy-face{
-       display: none;
-    
+    .showcase-6 .container .toy {
+        display: none;
     }
 
     .showcase-7 .lady-img{
@@ -1075,6 +1058,312 @@ display: none;
 }
 
 @media only screen and (max-width: 760px){
+    .container.showcase-1 .image-1{
+        display: none;
+    }
+
+      .showcase-3 .container .row.second-row {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .showcase-3 .container .boxes .case p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.8em;
+    }
+
+    .showcase-3 .title h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .showcase-4 .container h2 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-top: 100px;
+        padding-bottom: 16px;
+    }
+
+    .showcase-4 .associate-logo img{
+        width: 100%;
+    }
+
+    
+    .showcase-5 .ourTeam {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .showcase-5 .container .row .boxes-1 .case img{
+        width: 100%;
+    }
+
+    .showcase-5 .container .row .boxes-1 .case h2{
+        margin-top: 12px;
+        font-size: 12px;
+        font-weight: 500;
+    
+    }
+
+    .showcase-5 .ourTeam h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .showcase-5 .ourTeam p {
+        font-size: 12px;
+        line-height: 20px;
+     }
+    
+    .showcase-5 .container .row .boxes-1 .case p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .showcase-6 .coffee-title {
+        display: none;
+    }
+
+    .showcase-6 .sm-banner {
+        width: 100%;
+        background-color: #F1D1B8;
+        margin-top: 0px;
+    }
+
+    .showcase-6 input {
+        width: 241px;
+        height: 51px;
+        font-size: 10px;
+        padding-left: 16px;
+        border: none;
+        box-shadow: 0px 2px 20px rgb(133 43 61 / 20%);
+    }
+
+    .showcase-6 .btn {
+        position: absolute;
+        top: 13px;
+        font-size: 10px;
+        font-weight: 600;
+        right: 0px;
+    }
+
+    .showcase-6 .sm-banner .sm-banner-name h2 {
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 26px;
+    }
+
+    .showcase-6 .sm-banner .sm-banner-text p {
+        font-size: 10px;
+        padding-left: 16px;
+        width: 100%;
+    }
+
+    .showcase-6 .sm-banner .sm-banner-name h2 {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .showcase-6 .sm-banner .sm-banner-name p{
+        font-size: 8px;
+        margin-left: 15px;
+    }
+
+    .showcase-6 .sm-banner .sm-banner-img {
+        border-radius: 50%;
+        margin: 10px;
+        margin-bottom: -10px;
+    }
+
+    .showcase-6 .energetic {
+        display: flex;
+        font-size: 12px;
+        color: #000;
+        background: #ffffff;
+        width: 100%;
+        box-shadow: 0px 2px 20px rgb(133 43 61 / 20%);
+        border-radius: 8px 8px 0 0;
+    }
+
+    .showcase-6 .container .toy {
+        display: none;
+    }
+
+    .showcase-7 .container .lady-img-1 img{
+        width: 100%;
+    }
+
+    .showcase-7 .discount p {
+        font-weight: 500;
+        font-size: 24px;
+      
+    }
+     
+    .showcase-7 .lady-img{
+        position: relative;
+    }
+    
+    .lady-img-1 {
+        position: absolute;
+        top: 10px;
+    }
+    
+    .showcase-7 .discount p{
+        margin-top: 30px;
+        color: #000000DE;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .showcase-7 .container .col-sm-8 .button-1{
+        flex-direction: column;
+    }
+
+    .showcase-8 .title-hr {
+        width: 70px;
+        position: absolute;
+        bottom: -5px;
+    }
+
+    .showcase-8 .title-tag {
+        color: #d4874c;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 80px;
+    }
+
+    .showcase-8 .download-text {
+        font-size: 24px;
+        margin-top: 16px;
+        line-height: 40px;
+    }
+    .showcase-8 .app-btn {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .showcase-9 {
+        min-height: 444px;
+    }
+
+    .showcase-9 .contact h2 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    }
+
+    .showcase-9 .contact p {
+        font-size: 14px;
+        line-height: 32px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        
+    }
+
+    .showcase-9 .contact .form-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        font-size: 12px;
+        line-height: 20px;
+        
+    }
+
+    .showcase-9 .container form button.btn.btn-primary {
+        font-size: 12px;
+    }
+
+    .showcase-9 .contact .contact-list .contact-icon img{
+        width: 20px;
+    }
+
+    .showcase-10{
+        min-height: 200px;
+    }
+    
+    .showcase-10 .footer{
+        color: #FFFFFFDE;
+    
+    }
+    .showcase-10 .footer .footer-logo{
+        padding-top: 30px;  
+        width: 100%;  
+    }
+    
+    .showcase-10 .contact .contact-list{
+        display: flex;
+        padding-top: 32px;
+    }
+    
+    .showcase-10 .contact{
+        margin-top: 20px;
+
+    }
+    .showcase-10 .contact .contact-list {
+        display: flex;
+        padding-top: 10px;
+    }
+    
+    .showcase-10 .footer .contact .contact-lists .contact-list .contact-text{
+       font-size: 8px;
+       line-height: 18px;
+    
+    }
+    
+    .showcase-10 .contact .contact-list .contact-icon{
+        padding-right: 10px;
+    }
+    
+    .showcase-10 .footer .menu-list ul{
+        list-style: none;
+        margin-top: 24px;
+    }
+    
+    .showcase-10 .footer .menu-list li {
+        padding-bottom: 12px;
+    }
+    
+    .showcase-10 .footer .menu-list li a{
+        font-size: 8px;
+        line-height: 18px;
+    }
+    
+    .showcase-10 .footer .social p{
+        margin-top: 33px;
+        font-size: 8px;
+    }
+    
+    .showcase-10 .footer .social span p{
+        margin-top: 1px;
+        font-size: 8px;
+    }
+    
+    .showcase-10 .footer .social h2{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    
+    .showcase-10 .footer .social .social-icon{
+        margin-top: 12px;
+        width: 80px;
+        margin-bottom: 14px;
+    
+    }
+    
+   
+    
+
+    
 
 }
 

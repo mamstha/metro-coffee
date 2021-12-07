@@ -1,7 +1,7 @@
 <div class="showcase-8">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 download">
+            <div class="col-md-6 col-sm-6 download">
 
                 <div class="title">
                     <hr class="title-hr">
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 download">
+            <div class="col-md-6 col-sm-6 download">
                 <div class="download-img">
                     <div class="download-img-1">
                         <img src="img/phone-img2.png" alt=""class=" img-fluid front">

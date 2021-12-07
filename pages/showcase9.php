@@ -1,7 +1,7 @@
 <div class="showcase-9">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 contact">
+            <div class="col-md-6 col-sm-6 contact">
                 <div class="contactUs-text">
                 <h2>Contact Us</h2>
                 <p>For support or any question
@@ -37,7 +37,7 @@
                   </div>
             </div>
 
-            <div class="col-md-6 contact">
+            <div class="col-md-6 col-sm-6 contact">
                 <div class="form-title">
                     Lets start a conversation.
                 </div>

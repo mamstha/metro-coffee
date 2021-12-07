@@ -1,13 +1,13 @@
 <div class="showcase-7">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 lady-img" >
+            <div class="col-md-4 col-sm-4 lady-img" >
                 <div class="lady-img-1">
                 <img src="img/lady-img.png" alt="">
                 </div>
             </div>
 
-            <div class="col-md-8 discount">
+            <div class="col-md-8 col-sm-8 discount">
                 <p>
                 Claim a 10% discount by becoming a member
                 </p>

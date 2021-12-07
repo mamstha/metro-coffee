@@ -9,7 +9,7 @@
             
         </div>
         <div class="row ">
-            <div class="col-md-4 boxes-1">
+            <div class="col-md-4 col-sm-4 boxes-1">
                <div class="case">
                <img src="img/kenny.png" alt="">
                 <h2>Kenny Smith</h2>
@@ -20,7 +20,7 @@
                </div>
             </div>
 
-            <div class="col-md-4 boxes-1">
+            <div class="col-md-4 col-sm-4 boxes-1">
                <div class="case">
                <img src="img/jenny.png" alt="">
                 <h2>Alex Turner</h2>
@@ -31,7 +31,7 @@
                </div>
             </div>
 
-            <div class="col-md-4 boxes-1">
+            <div class="col-md-4 col-sm-4 boxes-1">
                <div class="case">
                <img src="img/alex.png" alt="">
                 <h2>Alex Turner</h2>

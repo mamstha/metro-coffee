@@ -2,11 +2,11 @@
 <div class="showcase-6">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img src="img/coffee1.png" alt="">
+            <div class="col-md-6 col-sm-6">
+                <img src="img/coffee1.png" class="lg-banner"alt="">
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
                <div class="energetic">
                    <div class="energetic-text">
                        Make You More Energetic
