@@ -292,6 +292,11 @@ position: relative;}
     
 }
 
+.showcase-4 .container  .row  .associate-logo img{
+    width: 178px;
+    height: 54px;
+}
+
 .showcase-5 .ourTeam{
     text-align: center;
     margin-top: 100px;
@@ -734,6 +739,10 @@ padding-left:16px ;
         display: none;
     }
 
+    .showcase-2 .title-group {
+        padding-left: 20px;
+    }
+
     .showcase-2 .title-tag h2{
         font-size: 24px;
         font-weight: 600;
@@ -833,8 +842,9 @@ padding-left:16px ;
         margin-bottom: 20px;
     }
 
-    .showcase-4 .associate-logo img{
-        width: 100%;
+    .showcase-4 .container  .row  .associate-logo img{
+        width: 178px;
+        height: 54px;
     }
 
     
@@ -1088,6 +1098,10 @@ display: none;
         margin-bottom: 30px;
     }
 
+    .showcase-2 .title-group {
+        padding-left: 20px;
+    }
+
     .showcase-3 .container .boxes .case p{
         font-size: 12px;
         font-weight: 400;
@@ -1107,8 +1121,9 @@ display: none;
         padding-bottom: 16px;
     }
 
-    .showcase-4 .associate-logo img{
-        width: 100px;
+    .showcase-4 .container  .row  .associate-logo img{
+        width: 178px;
+        height: 54px;
     }
 
     
@@ -1140,6 +1155,10 @@ display: none;
     .showcase-5 .container .row .boxes-1 .case p{
         font-size: 8px;
         font-weight: 400;
+    }
+
+    .showcase-6 .container .row .energetic-group {
+        padding-left: 20px;
     }
 
     .showcase-6 .coffee-title {
