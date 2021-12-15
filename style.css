@@ -83,15 +83,7 @@ position: relative;}
 .container.showcase-1 .image-1{
     width: 265px;
 }
-/* .carousel-item{
-    background: url("img/background-coffee.png");
-    height: 32rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
 
-} */
 .container .carousel{
     margin-bottom: 100px;
 }
