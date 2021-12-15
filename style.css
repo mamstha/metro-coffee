@@ -84,8 +84,8 @@ position: relative;}
     width: 265px;
 }
 .carousel-item{
-    background: url("img/background-coffee.png");
-    height: 32rem;
+    /* background: url("img/background-coffee.png"); */
+    /* height: 32rem; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,7 +99,7 @@ position: relative;}
 .carousel-inner .carousel-item .carousel-caption{
     position: absolute;
     bottom: 70px;
-    width: 568px;
+    width: 568px; 
     left: 295px;
 }
 
@@ -1122,8 +1122,8 @@ display: none;
     }
 
     .showcase-4 .container  .row  .associate-logo img{
-        width: 178px;
-        height: 54px;
+        width: 100px;
+        height: 34px;
     }
 
     
