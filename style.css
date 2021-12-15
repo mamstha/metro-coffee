@@ -88,30 +88,25 @@ position: relative;}
     margin-bottom: 100px;
 }
 
-.container .carousel .carousel-inner .d-block .first-slide{
-    position: relative;
-    display: block;
+.container .carousel .carousel-inner .d-block{
     max-height: 473px;
     min-height: 473px;
-    width: 100%;
     object-fit: cover;
     }
 
-.container .carousel .carousel-inner .d-block .first-slide-overlay{
+    .container .carousel .carousel-inner .first-slide .d-block{
+        position: relative;
+    }
+
+.container .carousel .carousel-inner .first-slide-overlay{
     position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
+    top: 0;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    opacity:0;
-}
-
-
-.container .carousel .carousel-inner .d-block:hover .first-slide-overlay{
-  
     opacity:1;
-}
+    min-height: 473px;
 
+}
 .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
     bottom: 70px;
@@ -326,8 +321,9 @@ position: relative;}
 
 .showcase-5 {
     background-image: url("img/coffee-beans.png");
-    background-size:100% 30%;
     background-repeat:no-repeat;
+    background-position: contain;
+    background-size:100% 30%;
     width:100%;
 
 
