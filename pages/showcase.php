@@ -7,8 +7,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <div class="first-slide">
                     <img src="img/background-coffee.png" class="d-block w-100" alt="First Slide">
-                        
+                    </div>
+
+                    <div class="first-slide-overlay">
+                    
+                    </div>                        
                     
                         <a href="#" class="carousel-control-next" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>

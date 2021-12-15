@@ -88,18 +88,29 @@ position: relative;}
     margin-bottom: 100px;
 }
 
-.container .carousel .carousel-inner .d-block {
+.container .carousel .carousel-inner .d-block .first-slide{
+    position: relative;
+    display: block;
     max-height: 473px;
     min-height: 473px;
     width: 100%;
     object-fit: cover;
     }
 
-.container .carousel .carousel-inner .d-block {
-    background-color: #000;
-    opacity:15;
-        
-    }
+.container .carousel .carousel-inner .d-block .first-slide-overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    opacity:0;
+}
+
+
+.container .carousel .carousel-inner .d-block:hover .first-slide-overlay{
+  
+    opacity:1;
+}
 
 .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
