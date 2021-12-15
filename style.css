@@ -88,6 +88,19 @@ position: relative;}
     margin-bottom: 100px;
 }
 
+.container .carousel .carousel-inner .d-block {
+    max-height: 473px;
+    min-height: 473px;
+    width: 100%;
+    object-fit: cover;
+    }
+
+.container .carousel .carousel-inner .d-block {
+    background-color: #000;
+    opacity:15;
+        
+    }
+
 .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
     bottom: 70px;
@@ -298,6 +311,15 @@ position: relative;}
 .showcase-4 .container  .row  .associate-logo img{
     width: 178px;
     height: 54px;
+}
+
+.showcase-5 {
+    background-image: url("img/coffee-beans.png");
+    background-size:100% 30%;
+    background-repeat:no-repeat;
+    width:100%;
+
+
 }
 
 .showcase-5 .ourTeam{
@@ -582,6 +604,10 @@ padding-left:16px ;
     width: 100%;
 }
 
+.showcase-8 .download .download-img .img-fluid.front{
+    margin-right:100px;
+
+}
 .showcase-9{
     background-color: #F0CEB4;
     min-height: 554px;

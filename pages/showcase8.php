@@ -29,11 +29,11 @@
             <div class="col-md-6 col-sm-6 download">
                 <div class="download-img">
                     <div class="download-img-1">
-                        <img src="img/phone-img2.png" alt=""class=" img-fluid front">
+                        <img src="img/62.png" alt=""class=" img-fluid front">
                     </div>
 
                     <div class="download-img-1">
-                        <img src="img/phone-img1.png" alt="" class="img-fluid back">
+                        <img src="img/63.png" alt="" class="img-fluid back">
                     </div>
                 </div>
                

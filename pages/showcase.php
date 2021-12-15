@@ -8,7 +8,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/background-coffee.png" class="d-block w-100" alt="First Slide">
-
+                        
                     
                         <a href="#" class="carousel-control-next" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
@@ -19,11 +19,7 @@
                             <span class="sr-only">Previous</span>
                         </a>
 
-                        <a href="#" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    
+                                            
                     <div class="carousel-caption">
                         <h3>
                             Serving You Ethically Sourced, Freshly Brewed Coffee, Every Day
