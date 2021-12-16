@@ -742,30 +742,27 @@ padding-left:16px ;
     margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
+    .navbar{
+        margin-top: 0;
+    }
           
     .container.showcase-1 .title-tag{
+        margin-top: -50px;
         font-size: 12px;
         line-height: 24px;
         letter-spacing: 0.4em;
         margin-left: 130px;
     }
     
-    .container.showcase-1 .title-hr{
-        width: 100%x;
-    }
-    
     .container.showcase-1 h2{
         font-size: 24px;
         line-height: 30px;
-        width: 100%;
     }
+      
     
-    .container.showcase-1 p{
-        font-size: 12px;
-        line-height: 24px;
-    }
     
+       
     .container.showcase-1 .image-1{
         display: none; 
     }
@@ -792,11 +789,7 @@ padding-left:16px ;
         width: 40px;
     }
     
-    .showcase-2 p{
-        font-family: poppins;
-        font-size: 12px;
-        line-height: 20px;
-    }
+    
 
     .showcase-3{
         margin-top: 30px;
@@ -824,35 +817,32 @@ padding-left:16px ;
         width: 100%;
         margin-top: 10px;
     }
-    
-    .showcase-3 .title p{
-        font-size: 12px;
-        color: #00000099;
-        line-height: 26px;
-    
+
+    .showcase-3 .container .row .boxes .case {
+        width: 100%;
+        margin-top: 30px;
     }
-      
-    .showcase-3 .container .row.second-row {
+
+    .showcase-3 .container .row .boxes {
+        display: block;
+        margin-right: 25px;
+    }
+    
+       
+    /* .showcase-3 .container .row.second-row {
         margin-top: 10px;
         margin-bottom: 30px;
-    }
+    } */
     
     .showcase-3 .container .row .boxes .case h6{
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 1;
     }
 
-    
-    
-    .showcase-3 .container .boxes .case p{
-        font-size: 8px;
-        font-weight: 400;
-        line-height: 1.8em;
-    }
-    
-    .showcase-3 .container h2{
-        font-size: 18px;
+    .showcase-3 .container .boxes .case p {
+        font-size: 16px;
+       
     }
 
     .showcase-4{
@@ -867,12 +857,7 @@ padding-left:16px ;
         padding-bottom: 8px;
     }
 
-    .showcase-4 .container p{
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
-    }
-    
+        
     .showcase-4 .associate-logo {
         margin-bottom: 20px;
     }
@@ -883,11 +868,8 @@ padding-left:16px ;
     }
 
     .showcase-5 {
-        
         background-size:contain;
         width:100%;
-    
-    
     }
 
     
@@ -900,10 +882,6 @@ padding-left:16px ;
     font-weight: 500;
 }
 
-.showcase-5 .ourTeam p{
-    font-size: 12px;
-    line-height: 20px;
-}
 
 .showcase-5 .container .row .boxes-1 .case{
     width: 100%;
@@ -920,29 +898,23 @@ padding-left:16px ;
 
 }
 
-.showcase-5 .container .row .boxes-1 .case p{
-    font-size: 12px;
-    font-weight: 400;
-    
-}
-
-     .showcase-6 .sm-banner{
+.showcase-6 .sm-banner{
         width: 100%;
     }
 
-    .showcase-6 .review-btn input{
+.showcase-6 .review-btn input{
         width: 100%;
     }
 
-    .showcase-6 .container{
+.showcase-6 .container{
         margin-bottom: 30px;
     
     }
     
-    .showcase-6 .container img{
-        width: 100%;
+.showcase-6 .container .lg-banner{
+        display: none;
     }
-    .showcase-6 .energetic{
+.showcase-6 .energetic{
         display: flex;
         font-size: 16px;
         color: #000;
@@ -954,105 +926,68 @@ padding-left:16px ;
         
     }
     
-    .showcase-6 .energetic .energetic-text{
+.showcase-6 .energetic .energetic-text{
         padding-right: 22px;
         font-size: 16px;
     }
     
-    .showcase-6 .coffee-title{
+.showcase-6 .coffee-title{
         color: #000;
         font-weight: 600;
         font-size: 20px;
         line-height: 30px;
         margin-top: 20px;
     }
-    .showcase-6 .sm-banner{
-      display: none;
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-1{
-display: none;        
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-img{
-        display: none;
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-name h2{
-        display: none;
-           
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-name p{
-        display: none;
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-text{
-        margin-top: 40px;
-    }
-    
-    .showcase-6 .sm-banner .sm-banner-text p{
-    color:#000000DE ;
-    font-size: 16px;
-    padding-left:16px ;
-    width: 330px;
-    }
-    
-    .showcase-6 input{
-      display: none;
-       
-    }
-    .showcase-6 .review-btn{
+
+.showcase-6 .review-btn{
         position: relative;
     }
-    .showcase-6 .btn{
-        display: none;
-    }
-    
-    
-    .showcase-6 .container .toy{
+ 
+.showcase-6 .container .toy{
         display: flex;
         margin-top:-50px;
     }
     
-    .showcase-6 .container .toy {
+.showcase-6 .container .toy {
         display: none;
     }
 
-    .showcase-7 .lady-img{
-        position: relative;
-        margin-bottom: 30px;
+.showcase-7 .lady-img{
+        display: none;
 
     }
     
-    .lady-img-1 {
-        position: absolute;
-    }
+.lady-img-1 {
+display: none;    }
+
+.showcase-7 .discount{
+    padding-left: 40px;
+}
     
-    .showcase-7 .discount p{
+.showcase-7 .discount p{
         margin-top: 20px;
         font-size: 22px;
         line-height: 30px;
         margin-bottom: 10px;
     }
-     .showcase-7 .container .button-1{
+.showcase-7 .container .button-1{
         flex-direction: column;
     }
 
-    .showcase-8 .app-btn{
+.showcase-8 .app-btn{
         display: flex;
         margin-top: 30px;
         margin-bottom: 50px;
     
     }
-    .showcase-8 .download{
+.showcase-8 .download{
         margin-top: 20px;
     }
     
-    .showcase-8 .title{
+.showcase-8 .title{
         position: relative;}
         
-    .showcase-8 .title-tag{
+.showcase-8 .title-tag{
         color: #d4874c;
         font-size: 12px;
         font-weight: 400;
@@ -1060,13 +995,13 @@ display: none;
         letter-spacing: 0.4em;
         margin-left: 60px;
     }
-    .showcase-8 .title-hr{
+.showcase-8 .title-hr{
         width: 50px;
         background: #d4874c;
         position: absolute;
         bottom: -5px;
     }
-    .showcase-8 .download{
+.showcase-8 .download{
         display: none;
     }
     
@@ -1093,7 +1028,7 @@ display: none;
          margin-bottom: 20px;
      }
     .showcase-9 .contactUs-text p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 20px;
     }
@@ -1103,7 +1038,7 @@ display: none;
     }
 
     .showcase-9 .contact .contact-list p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 20px;
     } 
@@ -1115,7 +1050,7 @@ display: none;
     .showcase-9 .contact .contact-list .contact-icon{
         padding-right: 24px;
     }
-    
+
     .showcase-9 .contact .form-title{
         font-size: 24px;
         font-weight: 500;
@@ -1129,9 +1064,11 @@ display: none;
         border: none;
         margin-bottom: 20px;
     }
-    .showcase-10{
-        display: none;
+
+    .showcase-10 .container .footer .menu-list{
+        margin-left: -40px;
     }
+    
 }
 
 @media only screen and (max-width: 760px){
@@ -1149,7 +1086,7 @@ display: none;
     }
 
     .showcase-3 .container .boxes .case p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 1.8em;
     }
@@ -1183,7 +1120,7 @@ display: none;
 
     .showcase-5 .container .row .boxes-1 .case h2{
         margin-top: 12px;
-        font-size: 12px;
+        font-size: 24px;
         font-weight: 500;
     
     }
@@ -1194,12 +1131,12 @@ display: none;
     }
 
     .showcase-5 .ourTeam p {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
      }
     
     .showcase-5 .container .row .boxes-1 .case p{
-        font-size: 8px;
+        font-size: 16px;
         font-weight: 400;
     }
 
@@ -1220,7 +1157,7 @@ display: none;
     .showcase-6 input {
         width: 241px;
         height: 51px;
-        font-size: 10px;
+        font-size: 16px;
         padding-left: 16px;
         border: none;
         box-shadow: 0px 2px 20px rgb(133 43 61 / 20%);
@@ -1229,30 +1166,30 @@ display: none;
     .showcase-6 .btn {
         position: absolute;
         top: 13px;
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 600;
         right: 0px;
     }
 
     .showcase-6 .sm-banner .sm-banner-name h2 {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
         padding-top: 26px;
     }
 
     .showcase-6 .sm-banner .sm-banner-text p {
-        font-size: 10px;
+        font-size: 16px;
         padding-left: 16px;
         width: 100%;
     }
 
     .showcase-6 .sm-banner .sm-banner-name h2 {
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 15px;
     }
 
     .showcase-6 .sm-banner .sm-banner-name p{
-        font-size: 8px;
+        font-size: 16px;
         margin-left: 15px;
     }
 
@@ -1264,7 +1201,7 @@ display: none;
 
     .showcase-6 .energetic {
         display: flex;
-        font-size: 12px;
+        font-size: 16px;
         color: #000;
         background: #ffffff;
         width: 100%;
@@ -1315,7 +1252,7 @@ display: none;
 
     .showcase-8 .title-tag {
         color: #d4874c;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         margin-left: 80px;
@@ -1331,42 +1268,48 @@ display: none;
         margin-bottom: 100px;
     }
 
-    .showcase-9 {
+    /* .showcase-9 {
         min-height: 444px;
+    } */
+
+    .showcase-9 .container .contact{
+        padding-left: 40px;
+        margin-right: 20px;
     }
 
+   
     .showcase-9 .contact h2 {
         font-size: 24px;
-        line-height: 40px;
+        line-height: 44px;
         margin-top: 50px;
         margin-bottom: 30px;
         
     }
 
     .showcase-9 .contact p {
-        font-size: 14px;
-        line-height: 32px;
-        margin-top: -10px;
+        font-size: 16px;
+        line-height: 40px;
+        /* margin-top: -10px; */
         margin-bottom: 20px;
         
     }
 
     .showcase-9 .contact .form-title {
-        font-size: 16px;
+        font-size: 24px;
         font-weight: 500;
-        line-height: 28px;
+        line-height: 40px;
         margin-top: 80px;
         margin-bottom: 10px;
     }
 
     .form-control {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 40px;
         
     }
 
     .showcase-9 .container form button.btn.btn-primary {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .showcase-9 .contact .contact-list .contact-icon img{
@@ -1400,7 +1343,7 @@ display: none;
     }
     
     .showcase-10 .footer .contact .contact-lists .contact-list .contact-text{
-       font-size: 8px;
+       font-size: 16px;
        line-height: 18px;
     
     }
@@ -1419,7 +1362,7 @@ display: none;
     }
     
     .showcase-10 .footer .menu-list li a{
-        font-size: 8px;
+        font-size: 16px;
         line-height: 18px;
     }
     
@@ -1430,11 +1373,11 @@ display: none;
     
     .showcase-10 .footer .social span p{
         margin-top: 1px;
-        font-size: 8px;
+        font-size: 16px;
     }
     
     .showcase-10 .footer .social h2{
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 7px;
     }
     

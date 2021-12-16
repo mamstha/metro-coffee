@@ -37,7 +37,7 @@
                   </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 contact">
+            <div class="col-md-6 col-sm-6 contact ">
                 <div class="form-title">
                     Lets start a conversation.
                 </div>
