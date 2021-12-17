@@ -1,11 +1,11 @@
 <div class="showcase-10">
     <div class="container">
         <div class="row">
-            <div class="col-md-3  footer">
+            <div class="col-md-3   footer">
                 <img src="img/footer-logo.png" alt="" class="footer-logo">
             </div>
 
-            <div class="col-md-3  footer ">
+            <div class="col-md-3 footer ">
                 <div class=" contact">
                     
                     <div class="contact-lists">

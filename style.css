@@ -742,7 +742,7 @@ padding-left:16px ;
     margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 368px) {
     .navbar{
         margin-top: 0;
     }
@@ -891,6 +891,11 @@ padding-left:16px ;
     
 }
 
+.showcase-5 .container .row .boxes-1 .case img{
+    width: 100%;
+      
+}
+
 .showcase-5 .container .row .boxes-1 .case h2{
     margin-top: 12px;
     font-size: 24px;
@@ -925,6 +930,10 @@ padding-left:16px ;
         border-radius: 8px;
         
     }
+
+.showcase-6 .container .row .energetic-group {
+        padding-left: 20px;
+    }
     
 .showcase-6 .energetic .energetic-text{
         padding-right: 22px;
@@ -932,15 +941,18 @@ padding-left:16px ;
     }
     
 .showcase-6 .coffee-title{
-        color: #000;
-        font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 30px;
         margin-top: 20px;
     }
 
 .showcase-6 .review-btn{
         position: relative;
+    }
+.showcase-6 .btn {
+        right: 0;
+        top: 10px;
+       
     }
  
 .showcase-6 .container .toy{
@@ -1071,329 +1083,520 @@ display: none;    }
     
 }
 
-@media only screen and (max-width: 760px){
-    .container.showcase-1 .image-1{
+@media only screen and (min-width: 369px) and ( max-width: 576px){
+    .navbar{
+        margin-top: 0;
+    }
+
+    .container.showcase-1 .image-1 {
         display: none;
     }
 
-      .showcase-3 .container .row.second-row {
+    .container.container.showcase-1{
+        margin-top: 15px;
+    }
+
+    .container.showcase-1 h2 {
+        font-size: 26px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption {
+        left: 0;
+        width: 400px;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 24px;
+        padding-left: 100px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .form-control {
+        width: 150px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .btn {
+        width: 150px;
+        padding: 12px;
+        font-size: 10px;
+        
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .btn .btn-img {
+        padding-right: 10px;
+        width: 20px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .button {
+         margin-left: 90px;
+    }
+
+    .form-control {
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+    .container .carousel-caption .scroll {
+        display: flex;
+        position: absolute;
+        right: -100px;
+        margin-top: 20px;
+    }
+
+    .container .carousel-caption .scroll h6 {
         margin-top: 10px;
-        margin-bottom: 30px;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    .container .carousel-caption .scroll p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .container .carousel-caption .scroll .scroll-img {
+        width: 20px;
+    }
+
+    .showcase-2 {
+        margin-top: -60px;
     }
 
     .showcase-2 .title-group {
         padding-left: 20px;
     }
 
-    .showcase-3 .container .boxes .case p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.8em;
+    .showcase-3 .container .title {
+        margin-top: -60px;
     }
 
     .showcase-3 .title h2 {
-        font-size: 24px;
+        font-size: 19px;
         line-height: 40px;
-        margin-top: 20px;
-    }
-
-    .showcase-4 .container h2 {
-        font-size: 24px;
-        line-height: 40px;
-        padding-top: 100px;
-        padding-bottom: 16px;
-    }
-
-    .showcase-4 .container  .row  .associate-logo img{
-        width: 100px;
-        height: 34px;
     }
 
     
-    .showcase-5 .ourTeam {
-        text-align: center;
-        margin-top: 30px;
+    .showcase-5 {
+        background-size: 100%;
     }
+
     .showcase-5 .container .row .boxes-1 .case img{
         width: 100%;
+          
     }
 
-    .showcase-5 .container .row .boxes-1 .case h2{
-        margin-top: 12px;
-        font-size: 24px;
-        font-weight: 500;
-    
-    }
-
-    .showcase-5 .ourTeam h2 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    .showcase-5 .ourTeam p {
-        font-size: 16px;
-        line-height: 20px;
-     }
-    
-    .showcase-5 .container .row .boxes-1 .case p{
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .showcase-6 .container .row .energetic-group {
-        padding-left: 20px;
-    }
-
-    .showcase-6 .coffee-title {
-        display: none;
-    }
-
-    .showcase-6 .sm-banner {
-        width: 100%;
-        background-color: #F1D1B8;
-        margin-top: 0px;
-    }
-
-    .showcase-6 input {
-        width: 241px;
-        height: 51px;
-        font-size: 16px;
-        padding-left: 16px;
-        border: none;
-        box-shadow: 0px 2px 20px rgb(133 43 61 / 20%);
-    }
-
-    .showcase-6 .btn {
-        position: absolute;
-        top: 13px;
-        font-size: 16px;
-        font-weight: 600;
-        right: 0px;
-    }
-
-    .showcase-6 .sm-banner .sm-banner-name h2 {
-        font-size: 16px;
-        line-height: 20px;
-        padding-top: 26px;
-    }
-
-    .showcase-6 .sm-banner .sm-banner-text p {
-        font-size: 16px;
-        padding-left: 16px;
-        width: 100%;
-    }
-
-    .showcase-6 .sm-banner .sm-banner-name h2 {
-        font-size: 16px;
-        margin-left: 15px;
-    }
-
-    .showcase-6 .sm-banner .sm-banner-name p{
-        font-size: 16px;
-        margin-left: 15px;
-    }
-
-    .showcase-6 .sm-banner .sm-banner-img {
-        border-radius: 50%;
-        margin: 10px;
-        margin-bottom: -10px;
-    }
-
-    .showcase-6 .energetic {
-        display: flex;
-        font-size: 16px;
-        color: #000;
-        background: #ffffff;
-        width: 100%;
-        box-shadow: 0px 2px 20px rgb(133 43 61 / 20%);
-        border-radius: 8px 8px 0 0;
+    .showcase-5 .container .row .boxes-1 .case {
+        margin-bottom: 40px;
     }
 
     .showcase-6 .container .toy {
         display: none;
     }
-
-    .showcase-7 .container .lady-img-1 img{
-        width: 100%;
-    }
-
-    .showcase-7 .discount p {
-        font-weight: 500;
+    .showcase-6 .coffee-title {
         font-size: 24px;
-      
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: -30px;
     }
-     
-    .showcase-7 .lady-img{
-        position: relative;
+    .showcase-6 .container .row .lg-banner{
+        display: none;
     }
-    
-    .lady-img-1 {
-        position: absolute;
-        top: 10px;
-    }
-    
-    .showcase-7 .discount p{
-        margin-top: 30px;
-        color: #000000DE;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 30px;
+    .showcase-6 .container .row .energetic-group {
+        padding-left: 20px;
     }
 
-    .showcase-7 .container .col-sm-8 .button-1{
-        flex-direction: column;
+    .showcase-7 .container .row .button-1{
+        margin-left: -210px;
     }
 
-    .showcase-8 .title-hr {
-        width: 70px;
-        position: absolute;
-        bottom: -5px;
+ 
+.showcase-7 .discount p {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+    .button-1 .form-control {
+        width: 250px;
+        padding: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .button-1 .btn {
+        width: 250px;
+        padding: 7px;
+       
+    }
+
+    .showcase-8 .download .download-img .img-fluid.front {
+        margin-right: 100px;
+        width: 100px;
     }
 
     .showcase-8 .title-tag {
-        color: #d4874c;
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .showcase-8 .download {
+        margin-top: 50px;
+    }
+
+    .showcase-8 .title-hr {
+        width: 80px;
+       
+    }
+
+    .showcase-8 .title-tag {
+        font-size: 12px;
         line-height: 24px;
-        margin-left: 80px;
+        margin-left: 92px;
     }
 
     .showcase-8 .download-text {
-        font-size: 24px;
-        margin-top: 16px;
-        line-height: 40px;
-    }
-    .showcase-8 .app-btn {
-        margin-top: 30px;
-        margin-bottom: 100px;
+        font-size: 30px;
     }
 
-    /* .showcase-9 {
-        min-height: 444px;
-    } */
-
-    .showcase-9 .container .contact{
-        padding-left: 40px;
-        margin-right: 20px;
+    .showcase-8 .download .download-img {
+        margin-top: 40px;
     }
 
-   
+    .showcase-9 {
+        margin-top: -180px;
+    }
+
     .showcase-9 .contact h2 {
         font-size: 24px;
-        line-height: 44px;
-        margin-top: 50px;
-        margin-bottom: 30px;
         
     }
-
-    .showcase-9 .contact p {
-        font-size: 16px;
-        line-height: 40px;
-        /* margin-top: -10px; */
-        margin-bottom: 20px;
-        
-    }
-
-    .showcase-9 .contact .form-title {
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 40px;
-        margin-top: 80px;
-        margin-bottom: 10px;
-    }
-
-    .form-control {
-        font-size: 16px;
-        line-height: 40px;
-        
-    }
-
     .showcase-9 .container form button.btn.btn-primary {
-        font-size: 16px;
+        margin-bottom: 40px;
     }
 
-    .showcase-9 .contact .contact-list .contact-icon img{
+    .showcase-10 .container .footer .menu-list{
+        margin-left: -40px;
+    }
+
+}
+
+@media only screen and (min-width: 577px) and ( max-width: 768px){
+
+    .container.showcase-1 h2 {
+        font-size: 44px;
+    }
+
+    .container.showcase-1 .image-1 {
+        display: none;
+    }
+
+    .showcase-2 .title-group {
+        padding-left: 20px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption {
+        left: 65px;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 24px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .form-control {
+        width: 150px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .btn {
+        width: 150px;
+        padding: 12px;
+        font-size: 10px;
+        
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .btn .btn-img {
+        padding-right: 10px;
         width: 20px;
     }
 
-    .showcase-10{
-        min-height: 200px;
+    .carousel-inner .carousel-item .carousel-caption .button {
+         margin-left: 90px;
     }
-    
-    .showcase-10 .footer{
-        color: #FFFFFFDE;
-    
+
+    .form-control {
+        font-size: 10px;
+        line-height: 40px;
     }
-    .showcase-10 .footer .footer-logo{
-        padding-top: 30px;  
-    }
-    
-    .showcase-10 .contact .contact-list{
+
+    .container .carousel-caption .scroll {
         display: flex;
-        padding-top: 32px;
-    }
-    
-    .showcase-10 .contact{
+        position: absolute;
+        right: -30px;
         margin-top: 20px;
+    }
+
+    .container .carousel-caption .scroll h6 {
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    .container .carousel-caption .scroll p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .container .carousel-caption .scroll .scroll-img {
+        width: 20px;
+    }
+
+    .showcase-3 .title h2 {
+        font-size: 26px;
+    }
+
+    .showcase-3 .container .boxes{
+        margin-bottom: -20px;
+    }
+
+    .showcase-3 .container .boxes .case {
+        height: 260px;
+         margin-bottom: -50px;
+    }
+    .showcase-3 .container .boxes .case p {
+        font-size: 10px;
+        line-height: 20px;
 
     }
-    .showcase-10 .contact .contact-list {
-        display: flex;
-        padding-top: 10px;
+
+    .showcase-3 .container .row .boxes .case h6{
+        font-size: 10px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+
+    .showcase-5 {
+        background-image: url(img/coffee-beans.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .showcase-5 .container .row .boxes-1 .case img{
+        width: 100%;
+          
+    }
+
+    .showcase-5 .container .row .boxes-1 .case p{
+        font-size: 12px;
+               
+    }
+    .showcase-6 .container .row .energetic-group {
+        padding-left: 20px;
+    }
+
+    .showcase-6 .coffee-title {
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    .showcase-6 .container .toy {
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+
+
+    .showcase-7 .container .button-1{
+        margin-left: -140px;
+    }
+
+    .button-1 .form-control {
+        padding: 9px;
+    }
+
+    .showcase-8 .download .download-img .img-fluid.front{
+        width: 62%;
+    }
+
+    .showcase-8 .download .download-img .img-fluid.back{
+        width: 100%;
+    }
+
+    .showcase-9{
+        margin-top: -170px;
+    }
+
+    .showcase-9 .container form button.btn.btn-primary {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 959px){
+
+    .container.showcase-1 h2 {
+        font-size: 44px;
     }
     
-    .showcase-10 .footer .contact .contact-lists .contact-list .contact-text{
-       font-size: 16px;
-       line-height: 18px;
+    .container.showcase-1 .image-1 {
+        display: none;
+    }
+    
+    .showcase-2 .title-group {
+        padding-left: 20px;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption {
+        left: 65px;
     
     }
     
-    .showcase-10 .contact .contact-list .contact-icon{
+    .carousel-inner .carousel-item .carousel-caption h3{
+        font-size: 24px;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .form-control {
+        width: 150px;
+        padding: 0px;
+        font-size: 10px;
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .btn {
+        width: 150px;
+        padding: 12px;
+        font-size: 10px;
+        
+    }
+    
+    .carousel-inner .carousel-item .carousel-caption .btn .btn-img {
         padding-right: 10px;
+        width: 20px;
     }
     
-    .showcase-10 .footer .menu-list ul{
-        list-style: none;
-        margin-top: 24px;
+    .carousel-inner .carousel-item .carousel-caption .button {
+         margin-left: 90px;
     }
     
-    .showcase-10 .footer .menu-list li {
-        padding-bottom: 12px;
+    .form-control {
+        font-size: 10px;
+        line-height: 40px;
     }
     
-    .showcase-10 .footer .menu-list li a{
-        font-size: 16px;
-        line-height: 18px;
+    .container .carousel-caption .scroll {
+        display: flex;
+        position: absolute;
+        right: -30px;
+        margin-top: 20px;
     }
     
-    .showcase-10 .footer .social p{
-        margin-top: 33px;
-        font-size: 8px;
+    .container .carousel-caption .scroll h6 {
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 0px;
     }
     
-    .showcase-10 .footer .social span p{
-        margin-top: 1px;
-        font-size: 16px;
+    .container .carousel-caption .scroll p {
+        font-size: 10px;
+        line-height: 10px;
     }
     
-    .showcase-10 .footer .social h2{
-        font-size: 16px;
-        margin-bottom: 7px;
+    .container .carousel-caption .scroll .scroll-img {
+        width: 20px;
     }
     
-    .showcase-10 .footer .social .social-icon{
-        margin-top: 12px;
-        width: 80px;
-        margin-bottom: 14px;
+    .showcase-3 .title h2 {
+        font-size: 26px;
+    }
+    
+    .showcase-3 .container .boxes{
+        margin-bottom: -20px;
+    }
+    
+    .showcase-3 .container .boxes .case {
+        height: 260px;
+         margin-bottom: -50px;
+    }
+    .showcase-3 .container .boxes .case p {
+        font-size: 10px;
+        line-height: 20px;
     
     }
     
-   
+    .showcase-3 .container .row .boxes .case h6{
+        font-size: 10px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
     
-
+    
+    .showcase-5 {
+        background-image: url(img/coffee-beans.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .showcase-5 .container .row .boxes-1 .case img{
+        width: 100%;
+          
+    }
+    
+    .showcase-5 .container .row .boxes-1 .case p{
+        font-size: 12px;
+               
+    }
+    .showcase-6 .container .row .energetic-group {
+        padding-left: 20px;
+    }
+    
+    .showcase-6 .coffee-title {
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+    
+    .showcase-6 .container .toy {
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+    
+    
+    .showcase-7 .container .button-1{
+        margin-left: -140px;
+    }
+    
+    .button-1 .form-control {
+        padding: 9px;
+    }
+    
+    .showcase-8 .download .download-img .img-fluid.front{
+        width: 62%;
+    }
+    
+    .showcase-8 .download .download-img .img-fluid.back{
+        width: 100%;
+    }
+    
+    .showcase-9{
+        margin-top: -170px;
+    }
+    
+    .showcase-9 .container form button.btn.btn-primary {
+        margin-bottom: 30px;
+    }
     
 
 }
+
+
 
 
 
